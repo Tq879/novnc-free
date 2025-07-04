@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: linux-vnc-multiuser
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars: []
